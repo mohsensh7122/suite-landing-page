@@ -4,4 +4,29 @@ footer {
     color: $text-secondary;
     text-align: center;
     border-radius: 20px;
+
+    h3 {
+        color: $text-tertiary;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 32px;
+        /* identical to box height, or 213% */
+
+        text-align: center;
+        letter-spacing: 0.0833333px;
+        margin-top: 0;
+    }
+}
+
+.logo-bottom {
+    margin: 54px 0px 30px 0px;
+}
+
+.social-icons {
+    height: 20px;
+width: 116px;
+display: flex;
+justify-content: space-between;
+margin: 30px auto 0;
+padding: 30px;
 }
