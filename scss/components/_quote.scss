@@ -1,0 +1,58 @@
+.quote {
+    width: 100%;
+    background-color: $text-primary;
+    color: $text-secondary;
+    text-align: center;
+    border-radius: 20px;
+
+    p {
+
+        font-size: 18px;
+        line-height: 32px;
+        letter-spacing: 0.09px;
+    }
+}
+
+.quote-container {
+    position: relative;
+}
+
+.jeremy-pic {
+    position: absolute;
+    position: absolute;
+    top: -190px;
+
+    /* position the top  edge of the element at the middle of the parent */
+    left: 50%;
+    /* position the left edge of the element at the middle of the parent */
+
+    transform: translateX(-50%);
+
+}
+
+.path-2 {
+    position: absolute;
+    top: 250px;
+    /* position the top  edge of the element at the middle of the parent */
+    left: 50%;
+    /* position the left edge of the element at the middle of the parent */
+
+    transform: translateX(-50%);
+
+}
+
+h2 {
+    padding-top: 338px;
+}
+
+.name-position {
+    margin-top: 40px;
+    padding-bottom: 64px;
+    p {
+        margin-bottom: 0;
+    }
+    
+    p:nth-of-type(2){
+        margin-top: 0;
+    }
+}

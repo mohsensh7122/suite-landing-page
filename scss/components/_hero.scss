@@ -1,0 +1,60 @@
+.hero {
+    margin-top: 70px;
+}
+
+h1 {
+    font-weight: 400;
+    font-size: 38px;
+    line-height: 44px;
+    letter-spacing: -0.5277777910232544px;
+    text-align: left;
+
+    font-weight: 400;
+    margin-bottom: 32px;
+
+}
+
+.hero-container {
+    position: relative;
+}
+
+.path-1 {
+    position: absolute;
+    height: 19px;
+    left: 170px;
+    top: -20px;
+}
+
+.hero p {
+    color: $text-tertiary;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0.08888889104127884px;
+    text-align: left;
+    margin-bottom: 32px;
+}
+
+.beta-button {
+    height: 61px;
+    width: 256px;
+    color: $text-secondary;
+    background-color: $text-primary;
+    border: none;
+    border-radius: 6px;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: -0.18000000715255737px;
+
+}
+
+
+
+
+///
+
+.iphone-pic {
+    width: 100%;
+    margin: 56px 0;
+}

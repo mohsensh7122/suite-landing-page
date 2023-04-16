@@ -1,0 +1,33 @@
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 24px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.logo {
+    width: 81px;
+    height: 32px;
+}
+
+.beta-link {
+    text-decoration: none;
+    color: $text-primary;
+    height: 48px;
+width: 182px;
+left: 161px;
+border: 1px solid $text-primary;
+padding: 12px 16.5px 12px 15.5px;
+border-radius: 6px;
+font-family: Epilogue;
+font-size: 14px;
+font-weight: 700;
+letter-spacing: -0.14000000059604645px;
+}

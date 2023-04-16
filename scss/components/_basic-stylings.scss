@@ -1,0 +1,14 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    color: $text-primary;
+    font-family: 'Epilogue', sans-serif;
+    margin: 0;
+}
+
+.container {
+    width: 343px;
+    margin: 0 auto;
+}
