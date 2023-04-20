@@ -49,6 +49,10 @@ h1 {
 
 }
 
+.beta-button:hover, .beta-button:active {
+    background: linear-gradient(90deg, rgb(160, 96, 255), rgb(203, 48, 227) 66%, rgb(255, 168, 78))100%;
+    cursor: pointer
+}
 
 
 

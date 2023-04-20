@@ -31,3 +31,9 @@ font-size: 14px;
 font-weight: 700;
 letter-spacing: -0.14000000059604645px;
 }
+
+.beta-link:hover, .beta-link:active {
+    cursor: pointer;
+    color: $text-secondary;
+    background-color: $text-primary;
+}

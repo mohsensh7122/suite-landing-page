@@ -3,31 +3,6 @@
   font-weight: 700;
 }
 
-@media screen and (min-width: 768px) {
-  .hero-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  .hero-container .iphone-pic {
-    width: 281px;
-    height: 482px;
-    position: relative;
-    right: 100px;
-    z-index: -1;
-  }
-  .hero-container .path-1 {
-    position: absolute;
-    height: 19px;
-    left: 170px;
-    top: 150px;
-  }
-  .text-boxes-container {
-    width: 80%;
-    display: flex;
-    justify-content: space-between;
-  }
-}
 * {
   box-sizing: border-box;
 }
@@ -77,6 +52,12 @@ ul {
   letter-spacing: -0.1400000006px;
 }
 
+.beta-link:hover, .beta-link:active {
+  cursor: pointer;
+  color: rgb(250, 248, 246);
+  background-color: rgb(23, 35, 57);
+}
+
 .navbar {
   display: flex;
   flex-direction: row;
@@ -109,6 +90,12 @@ ul {
   font-size: 14px;
   font-weight: 700;
   letter-spacing: -0.1400000006px;
+}
+
+.beta-link:hover, .beta-link:active {
+  cursor: pointer;
+  color: rgb(250, 248, 246);
+  background-color: rgb(23, 35, 57);
 }
 
 .hero {
@@ -157,6 +144,11 @@ h1 {
   font-weight: 700;
   line-height: 32px;
   letter-spacing: -0.1800000072px;
+}
+
+.beta-button:hover, .beta-button:active {
+  background: linear-gradient(90deg, rgb(160, 96, 255), rgb(203, 48, 227) 66%, rgb(255, 168, 78)) 100%;
+  cursor: pointer;
 }
 
 .iphone-pic {
@@ -212,7 +204,6 @@ h1 {
 
 .jeremy-pic {
   position: absolute;
-  position: absolute;
   top: -190px;
   /* position the top  edge of the element at the middle of the parent */
   left: 50%;
@@ -267,12 +258,126 @@ footer h3 {
 }
 
 .social-icons {
-  height: 20px;
   width: 116px;
   display: flex;
   justify-content: space-between;
   margin: 30px auto 0;
-  padding: 30px;
+  padding-bottom: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    width: 689px;
+  }
+  .hero {
+    margin: 150px 0 90px 0;
+  }
+  .hero .description {
+    width: 500px;
+  }
+  .hero .hero-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+  }
+  .hero .hero-container h1 {
+    font-size: 50px;
+    line-height: 64px;
+    letter-spacing: -0.777777791px;
+    text-align: left;
+  }
+  .hero .hero-container .path-1 {
+    position: absolute;
+    height: 19px;
+    left: 250px;
+    top: 25px;
+  }
+  .hero .iphone-pic {
+    width: 281px;
+    height: 482px;
+    position: absolute;
+    left: 380px;
+    z-index: -1;
+  }
+  .hero .path-1 {
+    position: absolute;
+    height: 19px;
+    left: 170px;
+    top: 150px;
+  }
+  .text-boxes-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  footer {
+    padding-top: 30px;
+  }
+  .footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .footer-container div {
+    display: flex;
+    align-items: center;
+  }
+  .footer-container .social-icons {
+    margin: 0;
+  }
+  .footer-container .logo-bottom {
+    margin: 0;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .container {
+    width: 1000px;
+  }
+  .company-details {
+    max-width: 190px;
+    height: 375px;
+  }
+  .text-boxes-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .text-boxes-container .text-box {
+    width: 100%;
+    text-align: left;
+  }
+  .hero-company {
+    display: flex;
+    justify-content: center;
+  }
+  .quote-container {
+    display: flex;
+    text-align: left;
+  }
+  .quote-container .quote-imgs {
+    flex: 1;
+  }
+  .quote-container .text {
+    flex: 1;
+  }
+  .quote-container .jeremy-pic {
+    position: absolute;
+    width: 375px;
+    height: 600px;
+    top: 0px;
+    /* position the top  edge of the element at the middle of the parent */
+    left: 250px;
+    /* position the left edge of the element at the middle of the parent */
+    transform: translateX(-50%);
+  }
+  .quote-container .path-2 {
+    position: absolute;
+    top: 250px;
+    /* position the top  edge of the element at the middle of the parent */
+    left: 50%;
+    /* position the left edge of the element at the middle of the parent */
+    transform: translateX(-50%);
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */
