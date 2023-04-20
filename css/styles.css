@@ -393,6 +393,14 @@ footer h3 {
     /* position the left edge of the element at the middle of the parent */
     transform: translateX(-50%);
   }
+  .quote-container .purple-pattern {
+    position: absolute;
+    top: 70px;
+    left: 250px;
+    transform: translateX(-50%);
+    z-index: 0;
+    display: inline-block;
+  }
   .quote-container .path-2 {
     position: absolute;
     top: 250px;

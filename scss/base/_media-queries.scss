@@ -133,6 +133,8 @@
         margin: auto auto;
     }
 
+    
+
     .quote-container {
         display: flex;
         text-align: left;
@@ -157,6 +159,15 @@
         
             transform: translateX(-50%);
         
+        }
+
+        .purple-pattern {
+            position: absolute;
+            top: 70px;
+            left: 250px;
+            transform: translateX(-50%);
+            z-index: 0;
+            display: inline-block;
         }
         
         .path-2 {
