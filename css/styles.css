@@ -202,6 +202,10 @@ h1 {
   position: relative;
 }
 
+.purple-pattern {
+  display: none;
+}
+
 .jeremy-pic {
   position: absolute;
   top: -190px;
@@ -266,6 +270,14 @@ footer h3 {
 }
 
 @media screen and (min-width: 768px) {
+  .purple-pattern {
+    position: absolute;
+    top: -190px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 0;
+    display: inline-block;
+  }
   .container {
     width: 689px;
   }
