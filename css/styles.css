@@ -362,6 +362,17 @@ footer h3 {
     display: flex;
     justify-content: center;
   }
+  .hero-company-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+  .hero {
+    grid-area: 1/span 3;
+  }
+  .company-details {
+    grid-area: 1/span 1;
+    margin: auto auto;
+  }
   .quote-container {
     display: flex;
     text-align: left;
