@@ -116,6 +116,10 @@ h1 {
   position: relative;
 }
 
+.separate-title {
+  display: block;
+}
+
 .path-1 {
   position: absolute;
   height: 19px;
@@ -283,6 +287,9 @@ footer h3 {
   }
   .hero {
     margin: 150px 0 90px 0;
+  }
+  .hero p {
+    width: 350px;
   }
   .hero .description {
     width: 500px;
