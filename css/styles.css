@@ -195,6 +195,8 @@ h1 {
   color: rgb(250, 248, 246);
   text-align: center;
   border-radius: 20px;
+  margin-top: 150px;
+  padding: 70px 0;
 }
 .quote p {
   font-size: 18px;
@@ -318,6 +320,7 @@ footer h3 {
     position: absolute;
     left: 380px;
     z-index: -1;
+    top: -100px;
   }
   .hero .path-1 {
     position: absolute;
@@ -389,6 +392,8 @@ footer h3 {
   }
   .quote-container .text {
     flex: 1;
+    margin-left: 150px;
+    margin-top: -150px;
   }
   .quote-container .jeremy-pic {
     position: absolute;
@@ -410,7 +415,7 @@ footer h3 {
   }
   .quote-container .path-2 {
     position: absolute;
-    top: 250px;
+    top: 220px;
     /* position the top  edge of the element at the middle of the parent */
     left: 50%;
     /* position the left edge of the element at the middle of the parent */

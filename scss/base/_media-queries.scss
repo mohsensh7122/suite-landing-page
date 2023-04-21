@@ -57,6 +57,7 @@
             position: absolute;
             left: 380px;
             z-index: -1;
+            top: -100px
         }
 
         .path-1 {
@@ -66,6 +67,8 @@
             top: 150px;
         }
     }
+
+    
 
     .text-boxes-container {
         display: flex;
@@ -149,6 +152,8 @@
 
         .text {
             flex: 1;
+            margin-left: 150px;
+            margin-top: -150px;
         }
 
         .jeremy-pic {
@@ -176,7 +181,7 @@
         
         .path-2 {
             position: absolute;
-            top: 250px;
+            top: 220px;
             /* position the top  edge of the element at the middle of the parent */
             left: 50%;
             /* position the left edge of the element at the middle of the parent */
